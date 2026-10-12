@@ -1,4 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
 
 @import 'tailwindcss';
-@plugin "daisyui";
+@plugin "daisyui" {
+  themes: caramellatte --default, dark --prefersdark, cupcake;
+}
+
+.card-shadow {
+  box-shadow: 10px 10px 0px oklch(var(--bc));
+}
+
+.card-shadow-sm {
+  box-shadow: 3px 3px 0px oklch(var(--bc));
+}
