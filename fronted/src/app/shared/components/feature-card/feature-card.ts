@@ -9,4 +9,6 @@ import { Component, Input } from '@angular/core';
 export class FeatureCard {
   @Input() image: string = ''
   @Input() description: string =''
+  @Input() tittle: string =''
+  @Input() category: string[] = []
 }
