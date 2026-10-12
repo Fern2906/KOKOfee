@@ -1,109 +1,56 @@
-<div class="navbar bg-base-100 shadow-sm fixed">
-  <div class="navbar-start">
-    <a class="btn btn-ghost text-xl">daisyUI</a>
-  </div>
-  <div class="navbar-center">
-    <div class="megamenu max-sm:megamenu-vertical megamenu-full" id="my-megamenu-4" popover>
-      <span class="megamenu-active"></span>
-      <button type="button" popovertarget="d1">One</button>
-      <div id="d1" popover>
-        <div class="flex max-sm:flex-col items-start">
-          <ul class="menu w-full md:menu-horizontal">
-            <li>
-              <a>Enterprise</a>
-              <ul>
-                <li><a>CRM software</a></li>
-                <li><a>Marketing management</a></li>
-                <li><a>Security</a></li>
-                <li><a>Consulting</a></li>
-              </ul>
-            </li>
-            <li>
-              <a>Company</a>
-              <ul>
-                <li><a>About us</a></li>
-                <li><a>Contact us</a></li>
-                <li><a>Privacy policy</a></li>
-                <li><a>Press kit</a></li>
-              </ul>
-            </li>
-          </ul>
-          <img src="https://img.daisyui.com/images/stock/photo-1559181567-c3190ca9959b.webp" class="md:max-w-sm max-md:hidden" alt="Tailwind CSS megamenu">
-        </div>
-      </div>
-      <button type="button" popovertarget="d2">Two</button>
-      <div id="d2" popover>
-        <div class="flex max-sm:flex-col items-start">
-          <ul class="menu w-full md:menu-horizontal">
-            <li>
-              <a>Enterprise</a>
-              <ul>
-                <li><a>CRM software</a></li>
-                <li><a>Marketing management</a></li>
-                <li><a>Security</a></li>
-                <li><a>Consulting</a></li>
-                <li><a>Privacy policy</a></li>
-                <li><a>Press kit</a></li>
-              </ul>
-            </li>
-            <li>
-              <a>Products</a>
-              <ul>
-                <li><a>UI Kit</a></li>
-                <li><a>WordPress themes</a></li>
-                <li><a>WordPress plugins</a></li>
-                <li><a>Color picker app</a></li>
-                <li><a>About us</a></li>
-                <li><a>Contact us</a></li>
-              </ul>
-            </li>
-          </ul>
-          <img src="https://img.daisyui.com/images/stock/photo-1572635148818-ef6fd45eb394.webp" class="md:max-w-sm max-md:hidden" alt="Tailwind CSS megamenu component">
-        </div>
-      </div>
-      <button type="button" popovertarget="d3">Three</button>
-      <div id="d3" popover>
-        <div class="flex max-sm:flex-col items-start">
-          <ul class="menu w-full md:menu-horizontal">
-            <li>
-              <a>Solutions</a>
-              <ul>
-                <li><a>Design</a></li>
-                <li><a>Development</a></li>
-                <li><a>Hosting</a></li>
-                <li><a>Domain register</a></li>
-              </ul>
-            </li>
-            <li>
-              <a>Products</a>
-              <ul>
-                <li><a>UI Kit</a></li>
-                <li>
-                  <a>Open source</a>
-                  <ul>
-                    <li><a>Auth management system</a></li>
-                    <li><a>VScode theme</a></li>
-                    <li><a>Color picker app</a></li>
-                  </ul>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <a>Company</a>
-              <ul>
-                <li><a>About us</a></li>
-                <li><a>Contact us</a></li>
-                <li><a>Privacy policy</a></li>
-                <li><a>Press kit</a></li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
+<div class="navbar bg-base-100 fixed top-0 left-0 right-0 z-50 px-4 py-3 navbar-brutalist rounded-2xl max-w-7xl mx-auto mt-4">
+    <div class="navbar-start">
+    <div class="inline-flex items-center gap-2 bg-neutral text-neutral-content px-4 py-2 rounded-xl brutalist-badge">
+      <span class="text-rotate duration-6000 font-black">
+        <span class="justify-items-center">
+          <span class="text-primary-content">KOKOFEE</span>
+          <span class="text-secondary-content">COCO</span>
+          <span class="text-primary-content font-bold italic">KOKOFEE ▶︎▶︎▶︎</span>
+          <span class="text-secondary-content font-bold italic">COFFE ▶︎▶︎▶︎</span>
+        </span>
+      </span>
     </div>
   </div>
-  <div class="navbar-end">
-    <a class="btn">Login</a>
-    <button type="button" class="btn sm:hidden" popovertarget="my-megamenu-4">Menu</button>
+
+  <div class="navbar-center hidden lg:flex">
+    <div class="megamenu max-sm:megamenu-vertical megamenu-full gap-2" id="my-megamenu-4" popover>
+      <span class="megamenu-active"></span>
+      <button type="button" popovertarget="d1" class="btn btn-sm btn-ghost font-bold border-2 border-transparent hover:border-base-content hover:bg-base-200">WHY KOKOFEE</button>
+      <div id="d1" popover class="bg-base-100 p-6 navbar-brutalist rounded-b-2xl shadow-xl max-w-7xl mx-auto ">
+        <div class="flex max-sm:flex-col items-start gap-4">
+          <ul class="menu w-full md:menu-horizontal gap-2">
+            <li><a class="font-bold border-2 border-base-content hover:bg-primary hover:text-primary-content">Nuestra Filosofía</a></li>
+            <li><a class="font-bold border-2 border-base-content hover:bg-primary hover:text-primary-content">Calidad de Grano</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <button type="button" popovertarget="d2" class="btn btn-sm btn-ghost font-bold border-2 border-transparent hover:border-base-content hover:bg-base-200">THE PROCESS</button>
+      <div id="d2" popover class="bg-base-100 p-6 navbar-brutalist rounded-b-2xl shadow-xl max-w-7xl mx-auto ">
+        <div class="flex max-sm:flex-col items-start gap-4">
+          <ul class="menu w-full md:menu-horizontal gap-2">
+            <li><a class="font-bold border-2 border-base-content hover:bg-primary hover:text-primary-content">Tostado Artesanal</a></li>
+            <li><a class="font-bold border-2 border-base-content hover:bg-primary hover:text-primary-content">Extracción Perfecta</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <button type="button" popovertarget="d3" class="btn btn-sm btn-ghost font-bold border-2 border-transparent hover:border-base-content hover:bg-base-200">OUR HISTORY</button>
+      <div id="d3" popover class="bg-base-100 p-6 navbar-brutalist rounded-b-2xl shadow-xl max-w-7xl mx-auto ">
+        <div class="flex max-sm:flex-col items-start">
+          <ul class="menu w-full md:menu-horizontal gap-2">
+            <li><a class="font-bold border-2 border-base-content hover:bg-primary hover:text-primary-content">Nuestros Inicios</a></li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
   </div>
+
+  <div class="navbar-end gap-3">
+    <a href=" " routerlink="/login" class="btn btn-sm btn-neutral font-bold border-2 border-neutral-content shadow-[2px_2px_0px_var(--fallback-bc,oklch(var(--bc)/1))]">Login</a>
+    <button type="button" class="btn btn-sm lg:hidden font-bold border-2 border-base-content" popovertarget="my-megamenu-4">Menu</button>
+    <app-theme-controller></app-theme-controller>
+  </div>
+
 </div>

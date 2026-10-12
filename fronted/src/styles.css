@@ -12,3 +12,13 @@
 .card-shadow-sm {
   box-shadow: 3px 3px 0px oklch(var(--bc));
 }
+
+.navbar-brutalist {
+  border: 4px solid var(--fallback-bc, oklch(var(--bc) / 1));
+  box-shadow: 6px 6px 0px var(--fallback-bc, oklch(var(--bc) / 1));
+}
+
+.brutalist-badge {
+  border: 2px solid var(--fallback-bc, oklch(var(--bc) / 1));
+  box-shadow: 3px 3px 0px var(--fallback-bc, oklch(var(--bc) / 1));
+}
