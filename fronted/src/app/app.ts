@@ -1,9 +1,8 @@
 import { Component, signal } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { LoginCard } from './shared/components/login-card/login-card';
 
 @Component({
-  imports: [RouterOutlet, LoginCard],
+  imports: [RouterOutlet],
   selector: 'app-root',
   styleUrl: './app.css',
   templateUrl: './app.html',
@@ -11,3 +10,4 @@ import { LoginCard } from './shared/components/login-card/login-card';
 export class App {
   protected readonly title = signal('fronted');
 }
+
